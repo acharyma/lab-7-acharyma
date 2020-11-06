@@ -7,6 +7,8 @@ Promise.all([ // load multiple files
 	d3.json('airports.json'),
 	d3.json('world-110m.json')
     ]).then(data=>{
+    //GitHub Pages Fix
+    
     const margin = { top: 100, right: 20, bottom: 40, left: 90 }
     const width = total_width - margin.left - margin.right
     const height = total_height - margin.top - margin.bottom; 
